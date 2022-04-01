@@ -1,0 +1,64 @@
+ /*make all <p> tags and text tags fall into a lighter color, the background is a dark gray blue*/
+ p {
+  text-align: center;
+  color:#edd9d8;
+  
+}
+ul {
+  text-align: center;
+  list-style-position: inside;
+  color:#d6c9b6;
+  
+}
+ol {
+  text-align: center;
+  list-style-position: inside;
+  color:#d6c9b6;
+  
+}
+
+body, h2, h3, h4, h5, h6 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  list-style-position: inside;
+  background-color:#8292ab; /*darker background color to hopefully make font stand out*/
+  color:#ebd0ce;
+}
+
+a:link {
+  color:#ffe8c2;
+  
+}
+
+a:visited {
+  color:#dbd1c5;
+}
+
+.img2 {
+  width:300;
+  height:375;
+}
+
+.img1{
+  width:500;
+  height:375;
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+  font-size:50px;
+  text-align: center;
+  list-style-position: inside;
+  background-color:#8292ab; /*darker background color to hopefully make font stand out*/
+  color:#ebd0ce;
+}
+div {
+  padding: 30px;
+  width:500px;
+  border: 1px solid #d6c9b6;
+  text-align: center;
+  list-style-position: inside;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25em
+} /*courtesy of w3schools*/
